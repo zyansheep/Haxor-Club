@@ -1,0 +1,13 @@
+body {
+	align-content: center;
+}
+
+@font-face {
+	font-family: mainfont;
+	src: url(ARCADECLASSIC.TTF);
+}
+
+h1 {
+	color: green;
+	font: mainfont;
+}
