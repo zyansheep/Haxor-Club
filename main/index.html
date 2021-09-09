@@ -1,0 +1,49 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="icon" href="icon.webp"  type="image/icon type">
+		<title>Hacker Club</title>
+		
+		<link rel="stylesheet" href="style.css">
+		<script src="index.js"></script>
+	</head>
+	<body>
+		<h1>Haxor Club</h1>
+		<ul id="selection" class="noselect">
+			<li><a onclick="changepage('main')" class="button" href="#">Home</a></li>
+			<li><a onclick="changepage('about')" class="button" href="#">About</a></li>
+		</ul>
+		<h2>This Site is WIP<br>Come back later for Challenges</h2>
+		<div id="main" class="page" style="display: block">
+			<a href="./challenges/executable.html">
+			<div class="challenge wip">
+				<h3>The Executable</h3>
+				<p>Extract the password</p>
+			</div></a>
+			<div class="challenge notstarted">
+				<h3>Web Hunt</h3>
+				<p>Find the key</p>
+			</div>
+			<div class="challenge notstarted">
+				<h3>SQL Injection</h3>
+				<p>Details about challenge</p>
+			</div>
+			<div class="challenge notstarted">
+				<h3>More Challenges Coming Soon</h3>
+				<p>Suggest or make challenges on the Discord!</p>
+			</div>
+		</div>
+		<div id="about" class="page">
+			<h2 id="intro">We are the Hacker Club</h2>
+			<p>We teach people about privacy, hacking, and the internet.</p>
+			<h3></h3>
+		</div>
+		
+		<marquee id="scroller" behavior="scrolling" direction="right" scrollamount="12">
+			Discord: <a href="https://discord.gg/e3fgC8S">https://discord.gg/e3fgC8S</a>
+			IPNS: <a href="https://ipfs.io/ipns/QmPhmJL4iXUgvCRahfENgvMVFbrJrbe3Ex57hwNkZ8bWVL">QmPhmJL4iXUgvCRahfENgvMVFbrJrbe3Ex57hwNkZ8bWVL</a>
+			The Meaning of Life: <a href="https://duckduckgo.com/?q=meaning+of+life+the+universe+and+everything">42</a>
+			Pi: <a href="https://www.piday.org/million/">3.14159264...</a>
+		</marquee>
+	</body>
+</html>

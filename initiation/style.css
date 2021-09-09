@@ -1,0 +1,39 @@
+@font-face {
+	font-family: mainfont;
+	src: url(ARCADECLASSIC.TTF);
+}
+
+body {
+	max-width: vw;
+	margin: auto;
+	text-align: center;
+	background-color: black;
+}
+
+
+h1 {
+	color: green;
+	font-family: mainfont;
+	font-size: 100px;
+}
+h2 {
+	color: red;
+}
+
+div {
+	display: block;
+}
+
+#main {
+	
+}
+.challenge {
+	padding: 6px;
+	border-color: green;
+	background: green;
+	border-radius: 25px;
+	margin: 20px;
+}
+h3, p {
+	color: white;
+}

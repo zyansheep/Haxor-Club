@@ -1,0 +1,137 @@
+@font-face {
+	font-family: mainfont;
+	src: url(ARCADECLASSIC.TTF);
+}
+
+body {
+	max-width: 50vw;
+	display: flexbox;
+	margin: auto;
+	text-align: center;
+	justify-content: center;
+	background-color: black;
+}
+
+
+h1, h2, h3, p {
+	color: white;
+}
+h1 {
+	color: green;
+	font-family: mainfont;
+	font-size: 100px;
+	margin-bottom: 20px;
+}
+h2 {
+	color: red;
+}
+
+div {
+	display: block;
+}
+
+#main {
+	
+}
+
+.page {
+	display: none;
+}
+.challenge {
+	padding: 6px;
+	border-color: none;
+	background: green;
+	border-radius: 25px;
+	margin: 20px;
+}
+.wip {
+	background: rgb(255, 115, 0);
+}
+.notstarted {
+	background: rgb(255, 0, 0);
+}
+
+#selection {
+	margin-bottom: 30px;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+	 -khtml-user-select: none; /* Konqueror HTML */
+	   -moz-user-select: none; /* Firefox */
+		-ms-user-select: none; /* Internet Explorer/Edge */
+			user-select: none; /* Non-prefixed version, currently
+								supported by Chrome and Opera */
+}
+
+  
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	display: inline;
+	padding: 10px;
+}
+.button {
+	display: inline-block;
+	color: white;
+	background-color: #00c109;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 5px;
+	border-radius: 100px;
+	border: 2px solid #00c109;
+	transition: background-color 0.25s ease;
+	transition: color 0.25s ease;
+}
+.button:hover {
+	color: #c10000;
+	background-color: transparent;
+}
+
+.button-unfinished:hover {
+	color: #ffaa00;
+	background-color: transparent;
+}
+
+.button-disabled:hover {
+	color: #dd0000;
+	background-color: transparent;
+}
+a {
+	text-decoration: none;
+}
+
+#intro {
+	color: red;
+}
+
+#scroller {
+	padding: 0;
+	margin: 0;
+	width: 100vw;
+	height: 20px;
+	display: block;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	
+	color: black;
+	font-size: 12px;
+}
+#scroller a {
+	color: black;
+	text-decoration: underline;
+}
+#scroller:hover {
+	color: white;
+}
+#scroller:hover a {
+	color: red;
+}
